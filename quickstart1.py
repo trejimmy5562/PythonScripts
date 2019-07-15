@@ -110,7 +110,7 @@ with smart_run(session):
   session.set_ignore_users(['USERS-TO-IGNORE'])
   session.set_do_comment(enabled=False, percentage=10)
   session.set_do_like(enabled=True, percentage=70)
-  session.follow_likers(['trejimmy12','friend1' , 'friend2'], photos_grab_amount = 5, follow_likers_per_photo = 4, randomize=True, sleep_delay=600, interact=True)
+  session.follow_likers(['friend1' , 'friend2'], photos_grab_amount = 5, follow_likers_per_photo = 4, randomize=True, sleep_delay=600, interact=True)
   
   #Unfollows people who do not follow you
   session.unfollow_users(amount=10, InstapyFollowed=(True, "nonfollowers"),
