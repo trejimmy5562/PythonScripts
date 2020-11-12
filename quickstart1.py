@@ -34,7 +34,7 @@ bad_tags.append('fight')
 
 
 
-#set some shitty auto comments
+#set some crappy auto comments
 comments = ['Nice pic! @{}',
         'I love this photo! @{}',
         'looks awesome :open_mouth:',
